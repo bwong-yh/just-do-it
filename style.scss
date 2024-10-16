@@ -1,0 +1,33 @@
+$background-color: #352f5b;
+$main-color: #423a6f;
+$max-width: 400px;
+$text-color: #f4f4f4;
+
+
+body {
+    background-color: $background-color;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: $text-color;
+    max-width: $max-width;
+
+    &::placeholder {
+        color: rgba($text-color, 0.2);
+    }
+}
+
+.container {
+    max-width: $max-width;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.todos li {
+    background-color: $main-color;
+}

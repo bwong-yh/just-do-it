@@ -1,1 +1,30 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #352f5b;
+}
+
+input[type=text],
+input[type=text]:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: #f4f4f4;
+  max-width: 400px;
+}
+input[type=text]::-moz-placeholder, input[type=text]:focus::-moz-placeholder {
+  color: rgba(244, 244, 244, 0.2);
+}
+input[type=text]::placeholder,
+input[type=text]:focus::placeholder {
+  color: rgba(244, 244, 244, 0.2);
+}
+
+.container {
+  max-width: 400px;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.todos li {
+  background-color: #423a6f;
+}/*# sourceMappingURL=style.css.map */
