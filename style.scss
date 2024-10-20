@@ -28,6 +28,10 @@ input[type="text"]:focus {
     cursor: pointer;
 }
 
+.filtered {
+    display: none !important;
+}
+
 .todos li {
     background-color: $main-color;
 }

@@ -25,6 +25,10 @@ input[type=text]:focus::placeholder {
   cursor: pointer;
 }
 
+.filtered {
+  display: none !important;
+}
+
 .todos li {
   background-color: #423a6f;
 }/*# sourceMappingURL=style.css.map */
