@@ -25,10 +25,25 @@ input[type=text]:focus::placeholder {
   cursor: pointer;
 }
 
+.duplicate-task {
+  border: 1px solid #af4141 !important;
+  color: #af4141 !important;
+}
+
+.error-message {
+  display: block;
+  color: #af4141;
+  margin-top: 8px;
+}
+
 .filtered {
   display: none !important;
 }
 
 .todos li {
   background-color: #423a6f;
+  border: 1px solid #f4f4f4;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 8px 12px;
 }/*# sourceMappingURL=style.css.map */

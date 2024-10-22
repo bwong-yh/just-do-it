@@ -1,8 +1,8 @@
 $background-color: #352f5b;
+$error-color: #af4141;
 $main-color: #423a6f;
 $max-width: 400px;
 $text-color: #f4f4f4;
-
 
 body {
     background-color: $background-color;
@@ -28,10 +28,25 @@ input[type="text"]:focus {
     cursor: pointer;
 }
 
+.duplicate-task {
+    border: 1px solid $error-color !important;
+    color: $error-color !important
+}
+
+.error-message {
+    display: block;
+    color: $error-color;
+    margin-top: 8px;
+}
+
 .filtered {
     display: none !important;
 }
 
 .todos li {
     background-color: $main-color;
+    border: 1px solid $text-color;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 8px 12px;
 }
